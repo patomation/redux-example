@@ -13,7 +13,7 @@ export default connect( (state) => {
     //This is how we get to our state/reducer todoList = []
     todoList: state.todoList
    }
-})(class Success extends React.Component {
+})(class Consumer extends React.Component {
   constructor(props) {
     super(props);
   }
