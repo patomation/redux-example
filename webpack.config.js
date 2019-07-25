@@ -1,4 +1,4 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: ['./src/App.js'],
@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
+    new HtmlWebPackPlugin({
       hash: true,
       title: 'Redux Example',
       template: './src/index.html',
